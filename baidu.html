@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百度一下你就知道</title>
+		<style type="text/css">
+			html {
+				height: 100%;
+			}
+			body {
+				font-family: "microsoft yahei";
+				height: 100%;
+			}
+			
+			#main {
+				min-width: 750px;
+				min-height: 500px;
+				position: relative;
+				height: 100%;
+			}
+			.f-r {
+				float: right;
+			}
+			.f-l {
+				float: left;
+			}
+			.clearfix {
+				clear: both;
+			}
+			.nav a {
+				text-decoration: none;
+				color: #000;
+			}
+			.nav a:hover {
+				text-decoration: underline;
+				color: blue;
+			}
+			a.last {
+				margin-right: 20px;
+				background-color: #3385ff;		
+				color: #fff;		
+			}
+			.logo img{
+				width: 270px;				
+			}
+			.logo {
+				text-align: center;
+				margin-top: 50px;
+			}
+			.search {
+				text-align: center;
+			}
+			.search input[name="search"] {
+				width: 600px;
+				height: 35px;
+				padding: 0;
+				border: 1px solid #3385ff;
+				vertical-align: middle;
+			}
+			.search button {
+				width: 80px;
+				height: 37px;
+				vertical-align: middle;
+				border: 1px solid #2d78f4;
+				background-color: #3385ff;
+				color: #fff;
+			}
+			footer {
+				font-size: 12px;				
+				width: 630px;
+				color: #8c8b8b;
+				/*margin: 150px auto 0 auto;*/
+				left: 50%;
+				margin-left: -315px;
+				position: absolute;
+				bottom: 50px;
+			}
+			.words p{
+				margin: 0;
+				line-height: 20px;
+			}
+			.words p a {
+				color: #8c8b8b;
+			}
+			footer div {
+				margin-left: 20px;
+			}
+			.code-phone {
+				margin-left: 0;
+			}
+			.camera {
+				display: inline-block;
+				width: 18px;
+				height: 19px;
+				background-image: url(img/xiangji.png);
+				position: relative;
+			    left: -109px;
+    			top: 5px;
+			}
+			.camera:hover {
+				background-position-y: -19px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="main">
+			<header>
+				<nav class="f-r nav">
+					<a href="#">糯米</a>
+					<a href="#">新闻</a>
+					<a href="#">hao123</a>
+					<a href="#">地图</a>
+					<a href="#">视频</a>
+					<a href="#">贴吧</a>
+					<a href="#">登录</a>
+					<a href="#">设置</a>
+					<a href="#" class="last">更多产品</a>
+				</nav>
+				<div class="clearfix"></div>
+			</header>
+			<section>
+				<div class="logo">
+					<img src="img/bd_logo1.png"/>
+				</div>
+				<div class="search">
+					<input name="search" type="text"/><button>百度一下</button>
+					<span class="camera"></span>
+				</div>
+			</section>
+			<footer>
+				<div class="code-phone f-l">
+					<img src="img/zbios.png" />
+				</div>
+				<div class="word-phone f-l">
+					<p>手机百度</p>
+					<p>快人一步</p>
+				</div>
+				<div class="code-nuomi f-l">
+					<img src="img/nuomi1.png"/>					
+				</div>
+				<div class="word-nuomi f-l">
+					<p>百度糯米</p>
+					<p>一元大餐</p>
+				</div>
+				<div class="words f-l">
+					<p><a href="#">把百度设置为主页</a><a href="#">关于百度</a><a href="#">About</a><a href="#">Baidu</a><a href="#">百度推广</a></p>
+					<p>©2016 Baidu 使用百度前必读 意见反馈 京ICP证030173号</p>
+					<p>京公网安备11000002000001号</p>
+				</div>
+				<div class="clearfix"></div>
+			</footer>
+		</div>		
+	</body>
+</html>
